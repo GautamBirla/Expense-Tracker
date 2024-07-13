@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.balance {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    background: #f9f9f9;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.list-item.delete {
+    background: #ff6347;
+    color: white;
+}
+
+.list-item.delete:hover {
+    background: #cc4c39;
+}
+
+.expense-text {
+    float: left;
+}
+
+.expense-amount {
+    float: right;
+}
+
+.list-item {
+    overflow: auto; /* Clear floats */
+}
